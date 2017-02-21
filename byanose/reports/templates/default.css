@@ -50,7 +50,7 @@
 
 #report table#section-header,
 #report table#section-info {
-    
+
 }
 #report table#section-header td#accreditation-logo {
     width:80mm;
@@ -167,6 +167,9 @@
 #report .barcode {
     float: right;
 }
+#report .barcode > div{
+    display: inline-block;
+}
 #report #ariddept {
     font-size: 10px;
     overflow: auto;
@@ -197,4 +200,12 @@
     border-top: 1px solid #aaaaaa;
     padding: 5px 0;
     width: 100%;
+}
+
+#report #header-box {
+  margin-bottom: 50px;
+}
+#report .attachment-img {
+  max-width: 50%;
+  display: block;
 }

@@ -7,6 +7,7 @@
     i18n_domain="byanose.reports">
 
   <five:registerPackage package="." initialize=".initialize" />
+  <include file="patches.zcml" />
 
   <genericsetup:registerProfile
       name="default"
@@ -20,7 +21,7 @@
    <plone:static
        directory="templates"
        type="reports"
-       name="byanose"
+       name="sdxhisto"
    />
-  
+
 </configure>
